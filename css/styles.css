@@ -80,7 +80,7 @@ textarea:active {
 	padding-right: 15px;
 }
 
-/* logo company */
+/* ===== logo company ===== */
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -94,7 +94,7 @@ textarea:active {
 	color: var(--color-accent);
 }
 
-/* button */
+/* ===== button ===== */
 .button {
 	font-family: inherit;
 	font-weight: 700;
@@ -134,7 +134,7 @@ textarea:active {
 	align-items: center;
 }
 
-.header__logo {
+.logo--header-accent {
 	padding-top: 24px;
 	padding-bottom: 25px;
 	margin-right: 93px;
@@ -449,7 +449,7 @@ textarea:active {
 	margin-right: 70px;
 }
 
-.footer__logo {
+.logo--footer-accent {
 	display: block;
 	margin-bottom: 20px;
 
@@ -662,7 +662,7 @@ textarea:active {
 	text-align: left;
 }
 
-.form__field--margin {
+.form__field-comment {
 	margin-bottom: 20px;
 }
 
@@ -743,7 +743,7 @@ textarea:active {
 	color: rgba(117, 117, 117, 0.5);
 }
 
-.form__field--checked {
+.form__field-checkbox {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -751,7 +751,7 @@ textarea:active {
 	margin-bottom: 30px;
 }
 
-.form__wrapper--checked {
+.form__wrapper-checkbox {
 	position: relative;
 
 	display: block;
@@ -763,7 +763,7 @@ textarea:active {
 	cursor: pointer;
 }
 
-.form__input--checked {
+.form__input-checkbox {
 	position: absolute;
 	white-space: nowrap;
 	margin: -1px;
@@ -789,7 +789,7 @@ textarea:active {
 	transition: opacity var(--transition-duration) var(--transition-timing-function);
 }
 
-.form__input--checked:checked+.form__icon--checked {
+.form__input-checkbox:checked+.form__icon--checked {
 	opacity: 1;
 }
 
@@ -808,13 +808,13 @@ textarea:active {
 	transition: border-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.form__input--checked:checked~.form__icon--unchecked,
-.form__input--checked:focus~.form__icon--unchecked,
-.form__input--checked:hover~.form__icon--unchecked {
+.form__input-checkbox:checked~.form__icon--unchecked,
+.form__input-checkbox:focus~.form__icon--unchecked,
+.form__input-checkbox:hover~.form__icon--unchecked {
 	border-color: var(--color-accent);
 }
 
-.form__label--checked {
+.form__label-checkbox {
 	margin-bottom: 0;
 
 	font-size: 14px;
